@@ -15,6 +15,7 @@
 		BF21E4531ED90C25006229E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF21E4511ED90C25006229E7 /* LaunchScreen.storyboard */; };
 		BF21E45E1ED90C25006229E7 /* BlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF21E45D1ED90C25006229E7 /* BlockTests.m */; };
 		BF21E4691ED90C25006229E7 /* BlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF21E4681ED90C25006229E7 /* BlockUITests.m */; };
+		BF21E4781ED90C46006229E7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF21E4771ED90C46006229E7 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BF21E4641ED90C25006229E7 /* BlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF21E4681ED90C25006229E7 /* BlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockUITests.m; sourceTree = "<group>"; };
 		BF21E46A1ED90C25006229E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF21E4761ED90C46006229E7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BF21E4771ED90C46006229E7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BF21E4471ED90C25006229E7 /* AppDelegate.m */,
 				BF21E4491ED90C25006229E7 /* ViewController.h */,
 				BF21E44A1ED90C25006229E7 /* ViewController.m */,
+				BF21E4761ED90C46006229E7 /* SecondViewController.h */,
+				BF21E4771ED90C46006229E7 /* SecondViewController.m */,
 				BF21E44C1ED90C25006229E7 /* Main.storyboard */,
 				BF21E44F1ED90C25006229E7 /* Assets.xcassets */,
 				BF21E4511ED90C25006229E7 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF21E4781ED90C46006229E7 /* SecondViewController.m in Sources */,
 				BF21E44B1ED90C25006229E7 /* ViewController.m in Sources */,
 				BF21E4481ED90C25006229E7 /* AppDelegate.m in Sources */,
 				BF21E4451ED90C25006229E7 /* main.m in Sources */,
